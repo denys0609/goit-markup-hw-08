@@ -1,0 +1,31 @@
+.whatwedo {
+  padding-top: 0;
+}
+.whatwedo__list {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.whatwedo__item {
+  position: relative;
+  z-index: -1;
+}
+.whatwedo__item:not(:first-child) {
+  margin-left: 30px;
+}
+.whatwedo__text {
+  width: 370px;
+  height: 70px;
+  color: var(--color-white);
+  background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
